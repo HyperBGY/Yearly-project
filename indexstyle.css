@@ -1,0 +1,279 @@
+nav{
+    background-color: rgb(15, 15, 15);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: sticky;
+}
+li{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+    border-radius: 5px;
+    text-align:justify;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+li:hover{
+    transform:translateY(-10px);transform: scale(115%);color: black;background-color: rgb(0, 0,0 , 50%);
+}
+.table2{margin: auto;}
+body{background-image: url(image\ \(2\)\ \(1\).png);color:white;text-shadow: 2px 1px rgb(0, 0, 0);background-attachment: fixed;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.body2{background-image: url(image\ \(3\)\ \(1\).png);}
+.body3{background-image: url(image\ \(4\).png);}
+.body4{background-image: url(image\ \(5\).png);}
+.body5{background-image: url(image\ \(6\).png);}
+.body6{background-image: url(download\ \(1\).png);}
+.body7{background-image: url(image\ \(7\).png);}
+.body8{background-image: url(labndfjkbhsfdkjd\ \(1\).png);}
+
+.section1{font-size: 40px;text-align: center; color: aliceblue}
+a{color: white; text-decoration: none;}
+ul{color:rgb(255, 255, 255)}
+p,h2,h3,h4,ol{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+hr{width: 500px; border-color: black;}
+.img1{border:dashed 10px rgb(26, 27, 27); border-style:double;}
+.section4,.section_bumblebee{transform: skew(-15deg);background-image: url(banner3.png);width: 1700px;text-align: center;margin:auto}
+.p1,.h2_1,.h2_1_bumblebee,.p1_bumblebee{transform: skew(15deg);}
+.h2_1{font-size: 30px;}
+.p1,.p1_bumblebee{font-size: 25px;}
+.section_image1{transform: skew(-15deg);}
+.a1{text-decoration: underline; color: rgb(158, 81, 247);}
+.p2,.Top5acchead{font-size: 35px;text-align: center; background-image: url(banner1.png);}
+.section2{background-image: url(banner3.png);width: 900px}
+.skibidi{transform: skew(15deg);text-shadow:none; font-size: 21px;text-align: center;}
+.bumblebee{transform: skew(-15deg);}
+.img2_bumblebee1,.img2_bumblebee2{transform: skew(15deg);}
+
+.section2{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    border-radius: 15px;
+    width: 970px;
+}
+
+.skibidi1{
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.skibidi1:hover {
+    transform:translatex(10px);transform: scale(137%);
+}
+
+.skibidi1onhover{
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    display: none;
+    font-size: 40px;
+}
+.skibidi1onhover:hover {
+    transform:translatex(10px);transform: scale(137%);
+}
+
+.img2{
+    transform: skew(15deg);width: 500px;
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    border-radius: 25px;
+    box-shadow: rgb(0, 0, 0, 50%) 5px 5px 5px;
+}
+
+.img2:hover {
+    transform:translateY(10px);transform: skew(0);background-color: rgb(0 0 0 / 50%);filter: brightness(110%);
+}
+
+.img2_bumblebee1 {
+    width: 300px; /* Specify the width */
+    height: 200px; /* Specify the height */
+    background-image:url(https://s1.cdn.autoevolution.com/images/news/bumblebee-1973-chevy-camaro-isn-t-really-an-original-z-28-yet-no-one-will-mind-191510_1.jpg); /* Initial background image */
+    background-size: cover; /* Cover the entire area of the element */
+    transition: background-image 0.5s ease-in-out; /* Smooth transition */
+    border-radius: 25px;
+
+}
+
+.img2_bumblebee1:hover {
+    background-image: url(https://i.pinimg.com/originals/fc/ed/1c/fced1cd43381ca0ba732378275b0a090.gif);
+}
+
+.img2_bumblebee2 {
+    width: 300px; /* Specify the width */
+    height: 200px; /* Specify the height */
+    background-image:url(https://bumblebeecarhire.co.uk/carousel/Home/home.jpg?version=2417); /* Initial background image */
+    background-size: cover; /* Cover the entire area of the element */
+    transition: background-image 0.5s ease-in-out; /* Smooth transition */
+    border-radius: 25px;
+
+}
+
+.img2_bumblebee2:hover {
+    background-image: url(https://i.pinimg.com/originals/d6/94/1f/d6941fdb1acd476469ffd919df783d3b.gif);
+}
+
+.h2_1{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+}
+.h2_1:hover {
+    transform:translateY(10px);transform: skew(-15deg);;
+}
+.p1{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+}
+.p1:hover {
+    transform:translateY(10px);transform: skew(13deg);;
+}
+.section4{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+    border-radius: 25px;
+}
+iframe{
+    display: none;box-shadow: rgb(0, 0, 0, 50%) 3px 3px 3px;
+        transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+    border-radius: 25px;
+
+
+}
+.section4:hover {
+    transform:translateY(-10px);transform: scale(105%);background-color:rgb(0, 0, 0, 30%);
+    height: 850px;
+    .img2{transform:translateY(-10px);transform:  skew(7,5deg)}
+    .p1{transform:  skew(-0deg);font-size: 35px;} 
+    .skibidi1{transform:translateY(-10px);transform:  skew(-15deg);display:none;}
+    .skibidi1onhover{display: inline-block;}
+    .h2_1{transform:translateY(-10px);transform:  skew(0deg);}
+    iframe{display:inline-block;}
+
+
+    }   
+
+.p2{
+    border-radius: 15px;
+}    
+
+.section_bumblebee{
+    border-radius: 25px;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* Dropdown Button */
+.dropbtn {
+    
+    width: 200px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+  }
+
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    z-index: -1;
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 50%);
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    transition-property: transform;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+    list-style-type: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 15px ;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(221, 221, 221, 10%);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    transform: translateY(-80px);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    transform: translateY(-80px);
+  }
+
+  body, html
+  {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .browselist{
+    background-color: rgb(10, 10, 10);
+    width: 600px;
+    height: 462px;
+    position:relative;
+    left: 100px;
+    text-align: center;
+  }
+
+  .browseimage{
+    width: 550px;
+    position: relative;
+    border: rgb(17, 17, 17) 5px;
+    border-style:double;
+}
+td {
+    padding: 10px;
+  }
+
+  .browse{
+    background-color: rgb(15, 15, 15);
+    font-size: 30px;
+    height: 1050px;
+  }
+
+  p{font-family:Bebas Neue;background-color: rgb(5, 5, 5);}
